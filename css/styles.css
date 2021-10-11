@@ -16,12 +16,10 @@ h6 {
 }
 
 #title {
-    background-color: #ff4c68;
     text-align: left;
 }
 
 .big-heading {
-    color: #fff;
     font-family: 'Montserrat-Black';
     font-weight: bold;
     font-size: 3.5rem;
@@ -73,7 +71,6 @@ h6 {
 
 /* feature css */
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -143,12 +140,14 @@ h6 {
 }
 
 .pricing-heading {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
-
-#price-tag {
+.dog-breed{
+    font-weight: bold;
+}
+.price-tag {
     font-weight: bold;
 }
 
@@ -176,14 +175,9 @@ h6 {
 }
 
 /* cta section */
-#cta {
-    background-color: #ff4c68;
-}
+
 
 /* footer section */
-#footer {
-    background-color: #fff;
-}
 
 .media-link {
     text-decoration: none;
@@ -198,4 +192,14 @@ h6 {
 #copyright {
     padding-top: 1rem;
     font-size: 0.8rem;
+}
+
+/* section colors */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
 }
