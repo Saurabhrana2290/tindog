@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat';
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +17,7 @@ h6 {
 
 #title {
     background-color: #ff4c68;
+    text-align: left;
 }
 
 .big-heading {
@@ -26,7 +28,11 @@ h6 {
     line-height: 1.5;
 }
 
-.title-con {
+.padding-container {
+    padding: 7% 15%;
+}
+
+#title .padding-container {
     padding: 3% 15%;
 }
 
@@ -67,13 +73,11 @@ h6 {
 
 /* feature css */
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 }
 
 .features-col {
-    text-align: center;
     padding: 5%;
 }
 
@@ -99,7 +103,6 @@ h6 {
 
 #testimonials {
     background-color: #ef8172;
-    text-align: center;
     position: relative;
     z-index: 1;
 }
@@ -117,15 +120,10 @@ h6 {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* press section */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -179,15 +177,11 @@ h6 {
 
 /* cta section */
 #cta {
-    text-align: center;
     background-color: #ff4c68;
-    padding: 7% 15%;
 }
 
 /* footer section */
 #footer {
-    text-align: center;
-    padding: 7% 15%;
     background-color: #fff;
 }
 
