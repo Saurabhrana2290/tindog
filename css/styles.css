@@ -144,9 +144,11 @@ h6 {
     font-size: 3rem;
     line-height: 1.5;
 }
-.dog-breed{
+
+.dog-breed {
     font-weight: bold;
 }
+
 .price-tag {
     font-weight: bold;
 }
@@ -162,9 +164,12 @@ h6 {
     #title {
         text-align: center;
     }
+
     .big-heading {
         font-size: 3rem;
         line-height: 1.5;
+        font-family: 'Montserrat-Black';
+        font-weight: bold;
     }
 }
 
@@ -199,11 +204,12 @@ h6 {
 }
 
 /* section background colors */
-.colored-section{
+.colored-section {
     background-color: #ff4c68;
     color: #fff;
 }
-.white-section{
+
+.white-section {
     background-color: #fff;
     color: #000;
 }
