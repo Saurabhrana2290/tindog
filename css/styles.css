@@ -164,6 +164,11 @@ h6 {
     #title {
         text-align: center;
     }
+    .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 2rem;
+        font-weight: bold;
+    }
 
     .big-heading {
         font-size: 3rem;
